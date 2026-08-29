@@ -1,0 +1,120 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "2f9d63ef-4408-4e64-a9eb-2669ac711241")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 58.42 76.2)
+		(size 17.78 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "03dd6cf7-25a6-43d8-8cf6-4be8b4221c08")
+		(property "Sheetname" "1-4_demux_x2"
+			(at 58.42 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1-4_demux_x2.kicad_sch"
+			(at 58.42 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1_X" input
+			(at 58.42 80.01 180)
+			(uuid "c9d436e7-d292-4768-a8c2-942134fd25b2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2_X" input
+			(at 58.42 86.36 180)
+			(uuid "437a0e28-c716-482c-979d-3346f63cb7e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1_S[1..0]" input
+			(at 63.5 99.06 270)
+			(uuid "44a8c92c-402e-4c3f-9381-74a2839eaf20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1_Y[3..0]" output
+			(at 76.2 80.01 0)
+			(uuid "69b23ae6-3cad-463e-a1f8-a096c5cc1b26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2_S[1..0]" input
+			(at 71.12 99.06 270)
+			(uuid "16635af9-a8d9-4c8a-939d-e84b1edfbb61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2_Y[3..0]" output
+			(at 76.2 86.36 0)
+			(uuid "4928888a-8ace-4052-b4df-4e289106e794")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB_EDU"
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
