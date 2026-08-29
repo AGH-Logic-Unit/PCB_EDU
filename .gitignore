@@ -1,0 +1,42 @@
+.DS_Store
+# ============================================================
+# Hardware
+# ============================================================
+
+# Backup files
+*.bak
+*.lck
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.kicad_prl-bak
+*.history
+
+# Autosave / recovery
+_autosave-*
+*.tmp
+
+# KiCad cache / generated files
+*.kicad_prl
+*.kicad_pro-bak
+*.kicad_sch-bak
+*.kicad_pcb-bak
+
+# Plot / fabrication output
+gerbers/
+gerber/
+plots/
+plot/
+drill/
+drills/
+
+# BOM exports
+bom/
+*.csv
+*.xml
+
+# 3D viewer / generated files
+*.wrl
+*.step
+
