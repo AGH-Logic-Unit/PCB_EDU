@@ -64,7 +64,7 @@
 			)
 		)
 		(pin "1_S[1..0]" input
-			(at 63.5 99.06 270)
+			(at 58.42 92.71 180)
 			(uuid "44a8c92c-402e-4c3f-9381-74a2839eaf20")
 			(effects
 				(font
@@ -84,7 +84,7 @@
 			)
 		)
 		(pin "2_S[1..0]" input
-			(at 71.12 99.06 270)
+			(at 58.42 96.52 180)
 			(uuid "16635af9-a8d9-4c8a-939d-e84b1edfbb61")
 			(effects
 				(font
@@ -107,6 +107,218 @@
 			(project "PCB_EDU"
 				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 76.2)
+		(size 19.05 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "86ea4a76-476c-463c-8353-231daa65bd4d")
+		(property "Sheetname" "4-1_mux_x4_1"
+			(at 154.94 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4-1_mux_x4.kicad_sch"
+			(at 154.94 100.9146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Y[3..0]" output
+			(at 173.99 85.09 0)
+			(uuid "26b30c24-fcf0-45e2-9480-41b88a990748")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1_X[3..0]" input
+			(at 154.94 78.74 180)
+			(uuid "5e3be700-3f92-4d42-b1f9-efbb56b392b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2_X[3..0]" input
+			(at 154.94 82.55 180)
+			(uuid "dcaf7a73-02d1-48fc-803a-6714665d6293")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3_X[3..0]" input
+			(at 154.94 86.36 180)
+			(uuid "bbc7e221-2396-4edf-af49-cab109869d70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4_X[3..0]" input
+			(at 154.94 90.17 180)
+			(uuid "846ea6f4-df8b-4417-9450-46601e83c659")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S[1..0]" input
+			(at 154.94 96.52 180)
+			(uuid "33afd45a-48e9-4bae-ab46-ea1257430dd3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB_EDU"
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 154.94 113.03)
+		(size 19.05 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cae37a05-8b64-4c63-9983-87a73f4f1bb3")
+		(property "Sheetname" "4-1_mux_x4_2"
+			(at 154.94 112.3184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "4-1_mux_x4.kicad_sch"
+			(at 154.94 137.7446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Y[3..0]" output
+			(at 173.99 121.92 0)
+			(uuid "fecc235c-ef6d-4202-afbb-e21e34669bf0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1_X[3..0]" input
+			(at 154.94 115.57 180)
+			(uuid "470702d4-684b-41ea-bac3-ecc97c77b6c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2_X[3..0]" input
+			(at 154.94 119.38 180)
+			(uuid "299bf53e-be7a-4196-82f8-9f812aabe5e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3_X[3..0]" input
+			(at 154.94 123.19 180)
+			(uuid "33667d04-79fe-4dcb-9be9-bc08a36f1e66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4_X[3..0]" input
+			(at 154.94 127 180)
+			(uuid "6d818ec3-4a52-40d5-85a0-dd75040d9ac1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S[1..0]" input
+			(at 154.94 133.35 180)
+			(uuid "3184396a-1199-4154-bacf-f75261dd0457")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB_EDU"
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241"
+					(page "4")
 				)
 			)
 		)
@@ -240,7 +452,7 @@
 			)
 		)
 		(pin "CP[3..0]" input
-			(at 113.03 101.6 270)
+			(at 101.6 99.06 180)
 			(uuid "d4a51538-7863-4841-905a-1eb0888aed63")
 			(effects
 				(font

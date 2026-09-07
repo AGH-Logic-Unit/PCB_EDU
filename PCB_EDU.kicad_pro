@@ -648,7 +648,7 @@
         "uuid": "2f9d63ef-4408-4e64-a9eb-2669ac711241"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U8-9,C11-14,#PWR41-56",
     "variants": []
   },
   "sheets": [
@@ -659,6 +659,14 @@
     [
       "e2f3fd29-c991-48c2-9f99-8ee1fb326503",
       "register_file"
+    ],
+    [
+      "86ea4a76-476c-463c-8353-231daa65bd4d",
+      "4-1_mux_x4_1"
+    ],
+    [
+      "cae37a05-8b64-4c63-9983-87a73f4f1bb3",
+      "4-1_mux_x4_2"
     ],
     [
       "03dd6cf7-25a6-43d8-8cf6-4be8b4221c08",
