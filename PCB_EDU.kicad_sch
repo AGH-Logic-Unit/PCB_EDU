@@ -111,6 +111,152 @@
 			)
 		)
 	)
+	(sheet
+		(at 101.6 76.2)
+		(size 22.86 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e2f3fd29-c991-48c2-9f99-8ee1fb326503")
+		(property "Sheetname" "register_file"
+			(at 101.6 75.4884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "register_file.kicad_sch"
+			(at 101.6 102.1846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1_D[3..0]" input
+			(at 101.6 80.01 180)
+			(uuid "9042c42e-b415-46a4-a3ee-a8bb6045fed3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "2_D[3..0]" input
+			(at 101.6 83.82 180)
+			(uuid "3861575d-97f3-4d85-9acc-72bf2de0d127")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "4_D[3..0]" input
+			(at 101.6 91.44 180)
+			(uuid "03adf0fb-b0e5-40f2-adde-8f7bf4edf5b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3_D[3..0]" input
+			(at 101.6 87.63 180)
+			(uuid "e5254dab-9c04-456a-80da-f49e2300c1f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E[3..0]" input
+			(at 101.6 95.25 180)
+			(uuid "feb80063-8512-4cd1-a5e2-4e6122ecc67c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3_Q[3..0]" output
+			(at 124.46 87.63 0)
+			(uuid "598d20c5-7749-45bf-a5e4-aaa27eb642b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "2_Q[3..0]" output
+			(at 124.46 83.82 0)
+			(uuid "4f3c6616-db6c-4e61-933d-04504cc29b81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "4_Q[3..0]" output
+			(at 124.46 91.44 0)
+			(uuid "6be64dd8-4e5c-49c0-8063-0483e6ac8c4c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "1_Q[3..0]" output
+			(at 124.46 80.01 0)
+			(uuid "7f298b6a-013f-4816-bc29-cbe440cd27e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CP[3..0]" input
+			(at 113.03 101.6 270)
+			(uuid "d4a51538-7863-4841-905a-1eb0888aed63")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB_EDU"
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
