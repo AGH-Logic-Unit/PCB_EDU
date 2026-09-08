@@ -648,7 +648,7 @@
         "uuid": "2f9d63ef-4408-4e64-a9eb-2669ac711241"
       }
     ],
-    "used_designators": "U8-9,C11-14,#PWR41-56",
+    "used_designators": "U13-16,C15-18,#PWR2-3,#PWR57-72",
     "variants": []
   },
   "sheets": [
@@ -669,8 +669,32 @@
       "4-1_mux_x4_2"
     ],
     [
+      "3c736a3c-5087-40aa-9b51-da90e91ade5b",
+      "1-2_demux_x4_1"
+    ],
+    [
+      "96ed2177-9d3c-41d8-b984-db21da1fdf7e",
+      "1-4_demux_x2_1"
+    ],
+    [
       "03dd6cf7-25a6-43d8-8cf6-4be8b4221c08",
       "1-4_demux_x2"
+    ],
+    [
+      "77a6507b-9397-4bd1-95b0-60bc2aae4d72",
+      "1-4_demux_x2_2"
+    ],
+    [
+      "eefc4e13-3f12-488a-b8ee-fbc666210f78",
+      "1-2_demux_x4_2"
+    ],
+    [
+      "96ed2177-9d3c-41d8-b984-db21da1fdf7e",
+      "1-4_demux_x2_1"
+    ],
+    [
+      "77a6507b-9397-4bd1-95b0-60bc2aae4d72",
+      "1-4_demux_x2_2"
     ]
   ],
   "text_variables": {},
