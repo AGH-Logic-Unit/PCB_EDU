@@ -260,7 +260,36 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "isolated_pin_label|1816100|508000|a1ee2815-b1a2-493e-9bbf-a609f368928d|00000000-0000-0000-0000-000000000000|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72||",
+        ""
+      ],
+      [
+        "isolated_pin_label|1816100|533400|aac6e918-14e2-431c-bd53-9861e786c110|00000000-0000-0000-0000-000000000000|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72||",
+        ""
+      ],
+      [
+        "isolated_pin_label|1816100|736600|ce9ee687-1c09-46b1-b91d-ba3183463387|00000000-0000-0000-0000-000000000000|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72||",
+        ""
+      ],
+      [
+        "isolated_pin_label|1816100|762000|3ee5069f-9df6-413d-8c87-bdaac309e7af|00000000-0000-0000-0000-000000000000|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72||",
+        ""
+      ],
+      [
+        "multiple_net_names|1079500|622300|754ab5b2-398e-4918-a872-80ff03fb138e|b8325aa5-d1ac-4da9-a9bb-1a7bfcf48b8e|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78",
+        ""
+      ],
+      [
+        "multiple_net_names|1079500|749300|3e1eb3d9-2334-4a84-9c4a-ca645ce92ffd|814f0c76-5781-463d-a686-e0e736ce6c85|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78",
+        ""
+      ],
+      [
+        "multiple_net_names|1181100|558800|172bf58d-f8c8-4c45-a9de-5001b36faa21|d00f2011-5528-442e-bb56-127ed62ff5c5|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78|/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -598,12 +627,30 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -648,7 +695,7 @@
         "uuid": "2f9d63ef-4408-4e64-a9eb-2669ac711241"
       }
     ],
-    "used_designators": "U13-16,C15-18,#PWR2-3,#PWR57-72",
+    "used_designators": "R26-37,D23-34,#PWR93",
     "variants": []
   },
   "sheets": [
@@ -695,6 +742,14 @@
     [
       "77a6507b-9397-4bd1-95b0-60bc2aae4d72",
       "1-4_demux_x2_2"
+    ],
+    [
+      "da35d0d0-240d-466d-b743-35c383c5b0e8",
+      "2-1_mux_x4"
+    ],
+    [
+      "82817c48-4b53-446f-bfb2-3cb7c049506d",
+      "led_matrix"
     ]
   ],
   "text_variables": {},

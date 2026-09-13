@@ -1,0 +1,109 @@
+(footprint "SPDT_switch"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 8.97 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7b792ef1-6a4d-49f5-bfd3-6f2923bdc3b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SPDT_switch"
+		(at 0 10.96 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "192fb74f-3b6e-459e-bbda-3a3e5e4dba2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1b350dd3-9c5a-471d-a39e-3f7b79775328")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a425500b-95d8-4168-82a6-925ee7509d18")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -6.35 -3.43)
+		(end 6.35 3.43)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fa54b09f-cb9d-4ad8-bd4b-ab24b84843cf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 12.46 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "be7c98b1-0f3c-4fba-bd14-f63c1d6640d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -4.7 0 90)
+		(size 3.13 1.86)
+		(drill oval 2.33 1.06)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "8955de11-a12d-4f86-9b55-cdb1aed9387e")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0 90)
+		(size 3.13 1.86)
+		(drill oval 2.33 1.06)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "8a3550e2-3944-463e-9a41-c50eaf8681f5")
+	)
+	(pad "3" thru_hole roundrect
+		(at 4.7 0 90)
+		(size 3.13 1.86)
+		(drill oval 2.33 1.06)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "de6b3cc2-5789-4623-aee2-d92b3115355d")
+	)
+	(embedded_fonts no)
+)

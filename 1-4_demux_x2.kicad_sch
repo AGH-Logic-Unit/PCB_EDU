@@ -906,6 +906,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 45.72) (xy 139.7 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720eab2d-894d-4fa5-af96-3c0e8e1b68e2")
+	)
+	(wire
+		(pts
 			(xy 177.8 50.8) (xy 181.61 50.8)
 		)
 		(stroke
@@ -996,6 +1006,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 48.26) (xy 139.7 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f18c05-07df-45a2-917a-19fb2ae5a232")
+	)
+	(wire
+		(pts
 			(xy 148.59 71.12) (xy 152.4 71.12)
 		)
 		(stroke
@@ -1054,6 +1074,16 @@
 		)
 		(uuid "3f62e3dd-8d85-4368-b82d-65b7886281c6")
 	)
+	(label "1_X"
+		(at 139.7 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "514b32ce-c14a-4573-adbd-78d5c4510342")
+	)
 	(label "1_Y1"
 		(at 181.61 48.26 180)
 		(effects
@@ -1083,6 +1113,16 @@
 			(justify right bottom)
 		)
 		(uuid "9203eb59-6289-4792-ae82-5f929554c673")
+	)
+	(label "2_X"
+		(at 139.7 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a04da61d-c6a8-45b0-a6e5-f995b5b82a25")
 	)
 	(label "1_Y2"
 		(at 181.61 50.8 180)
@@ -1242,7 +1282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b68935b-f410-4d99-b0a5-1189270ce03a")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR060"
 			(at 177.8 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -1297,12 +1337,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "73abda22-81fa-40b9-b5a0-b90fb710dc91")
+			(uuid "22804e7c-f21d-40b4-a823-89be914cf908")
 		)
 		(instances
 			(project "PCB_EDU"
 				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/03dd6cf7-25a6-43d8-8cf6-4be8b4221c08"
 					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "#PWR060")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "#PWR072")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -1320,7 +1376,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68acba48-b2e1-4214-82e7-231972c3fcb1")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR059"
 			(at 177.8 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -1375,12 +1431,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0c6b3dc-697b-4e14-8bdb-8cfe7be738b7")
+			(uuid "48d58451-2725-4867-9656-9d695f1b5193")
 		)
 		(instances
 			(project "PCB_EDU"
 				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/03dd6cf7-25a6-43d8-8cf6-4be8b4221c08"
 					(reference "#PWR019")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "#PWR059")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "#PWR070")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -1398,7 +1470,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ccd5fc0-93b7-48ef-aac2-3bc0fab82973")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 165.1 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1418,7 +1490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 165.1 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -1467,16 +1539,16 @@
 			(uuid "964916a0-ca52-4716-9ebb-6c8b6c3039ee")
 		)
 		(pin "12"
-			(uuid "69cb6e3e-0bd1-4bba-9f05-e693ed63be1e")
+			(uuid "e3fb9ec4-331a-4804-a28a-bffe3b7c9eda")
 		)
 		(pin "11"
-			(uuid "3fa3fa18-b083-47cc-b528-adca915c9860")
+			(uuid "610b3ff8-f088-4f24-addc-df6e705d4f57")
 		)
 		(pin "10"
-			(uuid "288fa847-d56e-4244-9448-ee2e26c0480a")
+			(uuid "57fea8c5-07c7-4ad3-8b3d-781ee6d3e468")
 		)
 		(pin "9"
-			(uuid "fd236863-020a-44cf-b089-4cecfc2641ee")
+			(uuid "34e8d55c-4708-4d3f-a2ac-d406d591b2e4")
 		)
 		(pin "16"
 			(uuid "0a9785c6-b83f-4b66-993a-6cce47821d60")
@@ -1485,13 +1557,13 @@
 			(uuid "f1f69829-7f5a-43e7-bca6-9ef94f81bd51")
 		)
 		(pin "14"
-			(uuid "5bc4bc76-3eee-443c-9643-f9239b2c8b48")
+			(uuid "94c52084-4725-492c-8091-4253b97e3e3c")
 		)
 		(pin "15"
-			(uuid "4d9be80f-a717-42ff-813a-b94bda416fe7")
+			(uuid "7a55bb7f-1542-47df-888b-4559a5628da8")
 		)
 		(pin "13"
-			(uuid "523bd5ad-e808-4a76-bd1a-b1ccfb3cd331")
+			(uuid "40a242b8-0b03-4e98-91fe-0b04bc692b4f")
 		)
 		(pin "2"
 			(uuid "5aa2101d-4e9b-4261-bde8-afd9866a831f")
@@ -1503,6 +1575,22 @@
 			(project "PCB_EDU"
 				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/03dd6cf7-25a6-43d8-8cf6-4be8b4221c08"
 					(reference "U12")
+					(unit 2)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "U14")
+					(unit 2)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "U13")
+					(unit 2)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "U16")
+					(unit 2)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "U15")
 					(unit 2)
 				)
 			)
@@ -1520,7 +1608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "757000e8-bef1-4d17-8e77-27e9700c41e4")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 165.1 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1540,7 +1628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 165.1 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -1574,19 +1662,19 @@
 			)
 		)
 		(pin "3"
-			(uuid "5c6f3407-b4d6-425d-ae69-65dfc61dd9bb")
+			(uuid "5c915a71-20dd-4539-bcb1-0d6d19292322")
 		)
 		(pin "4"
-			(uuid "e635e689-1c72-44d5-a317-2b3dd0fd3247")
+			(uuid "1b586ed2-9ea2-4dea-a3b2-55146255a638")
 		)
 		(pin "5"
-			(uuid "71d282fa-c1b0-4a31-b197-85c220b4cbea")
+			(uuid "b1bbb0c7-2e66-47e3-8c0c-7c7de248fbde")
 		)
 		(pin "6"
-			(uuid "ec5503ba-c176-4542-b2a0-c7e95ff8cacf")
+			(uuid "473d4874-b9af-4b00-9256-8a390c993041")
 		)
 		(pin "7"
-			(uuid "dfd30a57-956b-4d1d-a1a6-eea774ac18f7")
+			(uuid "a466cf54-ffad-4118-a7d5-ab8f1cf1b46f")
 		)
 		(pin "12"
 			(uuid "ab04b43e-97c9-41be-9fcf-9ca9a950f041")
@@ -1616,15 +1704,31 @@
 			(uuid "7c20f660-8e14-42e3-ac29-1f260d8e269e")
 		)
 		(pin "2"
-			(uuid "a325fd9a-e30d-4d9e-aa5b-6195445dc285")
+			(uuid "72cd787d-e400-426b-807b-da7c92a47754")
 		)
 		(pin "1"
-			(uuid "5bceed6d-bdf3-4836-8aff-e672f6760d42")
+			(uuid "a934df5e-485d-407f-aac8-5511095c3ba8")
 		)
 		(instances
 			(project "PCB_EDU"
 				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/03dd6cf7-25a6-43d8-8cf6-4be8b4221c08"
 					(reference "U12")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "U14")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "U13")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "U16")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -1642,7 +1746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76ae9c6b-5aa3-4616-b383-3129fb6151ee")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR058"
 			(at 152.4 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -1697,12 +1801,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "7ad42718-ba80-4e2c-9aa7-42bfc846f82f")
+			(uuid "675110c6-7d8a-4df4-a2a8-a745f69aa418")
 		)
 		(instances
 			(project "PCB_EDU"
 				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/03dd6cf7-25a6-43d8-8cf6-4be8b4221c08"
 					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -1720,7 +1840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7be1fe57-18b7-49cc-b290-91f3a7ffdc7c")
-		(property "Reference" "C5"
+		(property "Reference" "C15"
 			(at 156.21 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1731,7 +1851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 156.21 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,7 +1862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 153.3652 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -1776,15 +1896,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "a9cce696-903b-4cb8-9ae7-2a1cfb138f15")
+			(uuid "5de218e1-195d-4711-ba3e-caa9c7434dcb")
 		)
 		(pin "1"
-			(uuid "7b4d6334-daaa-467e-9fc7-3361c6dd0f15")
+			(uuid "6e01c962-aa93-43f4-be12-e4648a48e974")
 		)
 		(instances
 			(project "PCB_EDU"
 				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/03dd6cf7-25a6-43d8-8cf6-4be8b4221c08"
 					(reference "C5")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "C15")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -1802,7 +1938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "be57402b-fc9d-455e-b745-c8440e1724be")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR057"
 			(at 152.4 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -1857,12 +1993,28 @@
 			)
 		)
 		(pin "1"
-			(uuid "925c8112-8dfe-435e-aafa-6ca382c606a4")
+			(uuid "27c178a9-bf86-47db-95f3-ca33597a43a5")
 		)
 		(instances
 			(project "PCB_EDU"
 				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/03dd6cf7-25a6-43d8-8cf6-4be8b4221c08"
 					(reference "#PWR017")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "#PWR057")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "#PWR066")
+					(unit 1)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -1880,7 +2032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7d19448-3981-408b-a2fc-7d51bdd2f535")
-		(property "Reference" "U12"
+		(property "Reference" "U13"
 			(at 184.15 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,7 +2055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 			(at 177.8 127 0)
 			(hide yes)
 			(show_name no)
@@ -1964,10 +2116,10 @@
 			(uuid "c178f7e8-fdba-46af-ae89-503ff0b20c14")
 		)
 		(pin "16"
-			(uuid "2a296306-4a2e-43d9-aa04-11e7be3742ab")
+			(uuid "b3e7ba94-3d60-4fe9-b516-7a73d684e50b")
 		)
 		(pin "8"
-			(uuid "a100c91a-1f87-4d09-935a-2faa52e18053")
+			(uuid "da1ae85d-009b-49b0-b842-3859c4331e33")
 		)
 		(pin "14"
 			(uuid "1cc51f62-7184-42c8-96b2-97ba42337579")
@@ -1988,6 +2140,22 @@
 			(project "PCB_EDU"
 				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/03dd6cf7-25a6-43d8-8cf6-4be8b4221c08"
 					(reference "U12")
+					(unit 3)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "U14")
+					(unit 3)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/3c736a3c-5087-40aa-9b51-da90e91ade5b/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "U13")
+					(unit 3)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/77a6507b-9397-4bd1-95b0-60bc2aae4d72"
+					(reference "U16")
+					(unit 3)
+				)
+				(path "/2f9d63ef-4408-4e64-a9eb-2669ac711241/eefc4e13-3f12-488a-b8ee-fbc666210f78/96ed2177-9d3c-41d8-b984-db21da1fdf7e"
+					(reference "U15")
 					(unit 3)
 				)
 			)
