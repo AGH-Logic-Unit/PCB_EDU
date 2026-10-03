@@ -1,0 +1,5 @@
+(version 1)
+(rule "USB_Tracks_Only_Clearance"
+   (constraint clearance (min 1mm))
+   (condition "A.type == 'track' && (A.NetName == '/USB_D+' || A.NetName == '/USB_D-') && ((B.type == 'track' && B.NetName != '/USB_D+' && B.NetName != '/USB_D-' && B.NetName != '+5V' && B.NetName != '/+5V' && B.NetName != 'VBUS' && B.NetName != '/VBUS' && B.NetName != 'GND' && B.NetName != '/GND') || (B.type == 'zone' && (B.NetName == '+3.3V' || B.NetName == '/+3.3V')))")
+)
